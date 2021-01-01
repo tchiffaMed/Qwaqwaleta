@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Play&family=Exo+2:wght@200&family=Mitr:wght@200&family=Tomorrow:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Qwaqaleyta</title>
+    <script type="text/javascript" src="vanilla-tilts.js"></script>
+
     <style>
         *{
             margin: 0;
@@ -155,21 +157,13 @@
             <span class="num equal res" onclick="document.calc.txt.value =  eval(document.calc.txt.value)">=</span>
         </form>
     </div>
-    <script type="text/javascript" src="vanilla-tilts.js"></script>
     <script type="text/javascript">
     vanillaTilt.init(document.querySelector(".container"), {
         max: 15,
         speed: 400,
         glare: true,
         "max-glare": 0.2
-        let res = document.querySelector('.res');
-
-
-        try {
-            
-        } catch (error) {
-            
-        }
+        
     });
     </script>
 </body>
