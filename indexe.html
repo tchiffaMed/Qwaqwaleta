@@ -152,7 +152,7 @@
             <span class="num" onclick="document.calc.txt.value += '0' ">0</span>
             <span class="num" onclick="document.calc.txt.value += '00' ">00</span>
             <span class="num" onclick="document.calc.txt.value += '.' ">.</span>
-            <span class="num equal" onclick="document.calc.txt.value =  eval(document.calc.txt.value)">=</span>
+            <span class="num equal res" onclick="document.calc.txt.value =  eval(document.calc.txt.value)">=</span>
         </form>
     </div>
     <script type="text/javascript" src="vanilla-tilts.js"></script>
@@ -161,7 +161,15 @@
         max: 15,
         speed: 400,
         glare: true,
-        "max-glare": 0.2,
+        "max-glare": 0.2
+        let res = document.querySelector('.res');
+
+
+        try {
+            
+        } catch (error) {
+            
+        }
     });
     </script>
 </body>
